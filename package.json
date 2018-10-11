@@ -4,9 +4,9 @@
   "description": "Boilerplate for Node.js web applications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/Iamonlyzack/nts-starter"
   },
-  "author": "Bonfoh Zaki",
+  "author": "Iamonlyzack",
   "license": "MIT",
   "scripts": {
     "postinstall": "npm rebuild node-sass",
