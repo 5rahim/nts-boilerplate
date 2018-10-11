@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "baseUrl": ".",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "*",
+    "node_modules\typescript\lib\lib.es2015.collection.d.ts",
+    "node_modules\typescript\lib\lib.es2015.collection.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
