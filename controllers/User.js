@@ -40,7 +40,7 @@ var promisify = require('util').promisify;
 var crypto = require("crypto");
 var nodemailer = require("nodemailer");
 var passport = require("passport");
-var User = require('../config/User2');
+var User = require('../controllers/User');
 var randomBytesAsync = promisify(crypto.randomBytes);
 var UserController = /** @class */ (function () {
     function UserController() {

@@ -4,7 +4,7 @@ const { promisify } = require('util');
 import * as crypto from 'crypto'
 import * as nodemailer from 'nodemailer'
 import * as passport from 'passport'
-const User = require('../config/User2');
+const User = require('../controllers/User');
 
 const randomBytesAsync = promisify(crypto.randomBytes);
 
